@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você venceu!"
+        android:textSize="50sp"
+        android:gravity="center"
+        /> -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vitoria"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Jogo"
+            android:background="@color/green"
+            android:textColor="@color/branco"
+            android:onClick="iniciarJogo"
+            android:gravity="center"
+            android:layout_marginTop="450sp"
+            android:layout_marginLeft="150sp"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

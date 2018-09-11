@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/exorcista">
+
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="330sp"
+      android:layout_gravity="center"
+      >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Jogo"
+        android:background="@color/green"
+        android:textColor="@color/branco"
+        android:onClick="iniciarJogo"
+
+        />
+
+  </LinearLayout>
+
+
+
+</LinearLayout>
